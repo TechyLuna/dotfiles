@@ -1,0 +1,5 @@
+/system/result
+/system/hardware-configuration.nix
+/system/configuration.nix
+/system/secrets.nix
+/.history
