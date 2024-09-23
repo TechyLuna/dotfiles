@@ -15,7 +15,6 @@
     ./shell.nix
     ./sound.nix
     ./ssh.nix
-    ./storage.nix
     ./users.nix
     ./virtualisation.nix
 
