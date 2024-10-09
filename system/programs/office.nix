@@ -21,7 +21,7 @@ in
     kdePackages.kdeconnect-kde
     signal-desktop
     qalculate-gtk
-    unstable.spotube
+    unstable.nuclear
     monero-gui
   ];
 
