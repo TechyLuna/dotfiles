@@ -1,4 +1,8 @@
-{ config, lib, pkgs, ... }: {
+{ config, lib, pkgs, ... }:
+let
+  unstable = import <nixos-unstable> { config = { allowUnfree = true; }; };
+in
+{
   disabledModules = [ "services/misc/ollama.nix" ];
 
   imports = [
@@ -8,6 +12,7 @@
 
   services.ollama = {
     enable = true;
+    package = unstable.ollama;
     acceleration = "cuda";
   };
 }
