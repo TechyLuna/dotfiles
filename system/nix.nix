@@ -2,6 +2,12 @@
   nix.settings = {
     extra-sandbox-paths = [ config.programs.ccache.cacheDir ];
     experimental-features = [ "nix-command" "flakes" ];
+    auto-optimise-store = true;
+  };
+
+  nix.optimise = {
+    automatic = true;
+    dates = [ "04:26" ];
   };
 
   programs.ccache.enable = true;
