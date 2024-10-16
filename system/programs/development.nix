@@ -4,12 +4,6 @@
   environment.systemPackages = with pkgs; [
     git
     vscode-fhs
-    gnumake
-    cmake
-    python312
-    python312Packages.pip
-    poetry
-    glib
     nixpkgs-fmt
     sqlitebrowser
   ];
