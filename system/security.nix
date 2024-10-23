@@ -28,4 +28,26 @@
       #};
     };
   };
+
+  security.sudo = {
+    enable = true;
+    extraRules = [{
+      commands = [
+        {
+          command = "${pkgs.ddcutil}/bin/ddcutil";
+          options = [ "NOPASSWD" ];
+        }
+        {
+          command = "/run/current-system/sw/bin/ddcutil";
+          options = [ "NOPASSWD" ];
+        }
+      ];
+      groups = [ "wheel" ];
+    }];
+    extraConfig = with pkgs; ''
+      Defaults:picloud secure_path="${lib.makeBinPath [
+        ddcutil
+      ]}:/nix/var/nix/profiles/default/bin:/run/current-system/sw/bin"
+    '';
+  };
 }

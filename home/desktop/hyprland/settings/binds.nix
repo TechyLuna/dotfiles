@@ -47,5 +47,23 @@ in
       "$mainMod, mouse:272, movewindow" # Move window
       "$mainMod, mouse:273, resizewindow" # Resize window
     ];
+
+    binde = [
+      # Volume
+      ", XF86AudioRaiseVolume, exec, wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 5%+"
+      ", XF86AudioLowerVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
+      ", XF86AudioMute, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+    ];
+
+    bindl = [
+      # Player
+      ", XF86AudioPlay, exec, playerctl play-pause"
+      ", XF86AudioPrev, exec, playerctl previous"
+      ", XF86AudioNext, exec, playerctl next"
+
+      # Brightness
+      ", XF86MonBrightnessUp, exec, sudo ddcutil setvcp 10 + 20"
+      ", XF86MonBrightnessDown, exec, sudo ddcutil setvcp 10 - 20"
+    ];
   };
 }

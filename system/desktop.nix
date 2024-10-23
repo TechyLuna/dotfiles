@@ -19,6 +19,7 @@
 
   environment.systemPackages = with pkgs; [
     twemoji-color-font
+    ddcutil
   ];
 
   fonts = {
