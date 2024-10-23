@@ -30,11 +30,11 @@
         separate-outputs = true;
       };
 
-      # Rofi Application Launcher
+      # Fuzzel Application Launcher
       "custom/appmenu" = {
         format = "Apps";
         tooltip-format = "Left= Open the application launcher\nRight= Show all keybindings";
-        on-click = "rofi -show drun -replace";
+        on-click = "fuzzel";
         tooltip = false;
       };
 

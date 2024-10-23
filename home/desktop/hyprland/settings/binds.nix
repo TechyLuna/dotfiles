@@ -14,7 +14,7 @@ in
       "$mainMod, E, exec, ${constants.executable.filemanager}" # Opens the filemanager
       "$mainMod, T, togglefloating" # Toggle between tiling and floating window
       "$mainMod, F, fullscreen" # Open the window in fullscreen
-      "$mainMod CTRL, RETURN, exec, rofi -show drun" # Open rofi
+      "$mainMod CTRL, RETURN, exec, fuzzel" # Open fuzzel
       "$mainMod, P, pseudo," # dwindle
       "$mainMod, J, togglesplit," # dwindle
       "$mainMod, B, exec, ${constants.executable.browser}" # Opens the browser

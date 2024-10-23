@@ -3,9 +3,9 @@
   imports = [
     ./alacritty
     ./dunst
+    ./fuzzel
     ./hyprland
     ./hyprlock
-    ./rofi
     ./waybar
     ./wlogout
 

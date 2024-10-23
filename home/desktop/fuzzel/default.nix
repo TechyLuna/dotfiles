@@ -4,8 +4,8 @@
     ./settings.nix
   ];
 
-  programs.rofi = {
+  programs.fuzzel = {
     enable = true;
-    package = pkgs.rofi;
+    package = pkgs.fuzzel;
   };
 }
