@@ -34,11 +34,11 @@
       selection = "#725AC130";
       selection-text = "#EFF2F1FF";
       selection-match = "#BA3B46FF";
-      border = "#725AC1FF";
+      border = "#33ccffff";
     };
 
     border = {
-      width = 0;
+      width = 1;
       radius = 8;
     };
 
