@@ -1,0 +1,17 @@
+{ config, pkgs, ... }:
+{
+  programs.alacritty.settings = {
+    window = {
+      dimensions = { lines = 3; columns = 320; };
+      blur = true;
+      opacity = 0.75;
+    };
+    keyboard.bindings = [
+      {
+        key = "K";
+        mods = "Control";
+        chars = "\\u000c";
+      }
+    ];
+  };
+}

@@ -7,6 +7,8 @@
   services.displayManager.sddm.enable = true;
   services.desktopManager.plasma6.enable = true;
 
+  programs.hyprland.enable = true;
+
   # Configure keymap in X11
   services.xserver = {
     xkb = {
@@ -15,12 +17,18 @@
     };
   };
 
+  environment.systemPackages = with pkgs; [
+    twemoji-color-font
+  ];
+
   fonts = {
     enableDefaultPackages = true;
     packages = with pkgs; [
       noto-fonts
       noto-fonts-cjk
       noto-fonts-emoji
+      nerdfonts
+      twemoji-color-font
       liberation_ttf
       fira-code
       fira-code-symbols
@@ -29,7 +37,10 @@
       proggyfonts
       corefonts
       vistafonts
+      font-awesome
     ];
     fontDir.enable = true;
+
   };
+
 }
