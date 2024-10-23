@@ -4,5 +4,7 @@
     pavucontrol
     toybox
     playerctl
+    hyprshot
+    satty
   ];
 }

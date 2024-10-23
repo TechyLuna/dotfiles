@@ -19,6 +19,11 @@ in
       "$mainMod, J, togglesplit," # dwindle
       "$mainMod, B, exec, ${constants.executable.browser}" # Opens the browser
 
+      # Screenshots
+      ", Print, exec, hyprshot -c -m output -o ~/Pictures/Screenshots -f $(date '+%Y-%m-%dT%H-%M-%S').png" # monitor
+      "CTRL, Print, exec, hyprshot -c -r -m window -- echo | satty --filename - --fullscreen --output-filename ~/Pictures/Screenshots/$(date '+%Y-%m-%dT%H-%M-%S')-satty.png" # window + annotation
+      "SHIFT, Print, exec, hyprshot -r -m region -- echo | satty --filename - --fullscreen --output-filename ~/Pictures/Screenshots/$(date '+%Y-%m-%dT%H-%M-%S')-satty.png" # region + annotation
+
       # Move focus with mainMod + arrow keys
       "$mainMod, left, movefocus, l" # Move focus left
       "$mainMod, right, movefocus, r" # Move focus right
