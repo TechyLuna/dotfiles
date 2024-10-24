@@ -11,7 +11,6 @@ in
     mpv
     thunderbird
     ungoogled-chromium
-    unstable.firefox
     unstable.librewolf
     distrobox
     qgis
