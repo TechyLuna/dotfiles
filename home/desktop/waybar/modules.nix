@@ -13,9 +13,6 @@
           active = "";
           default = "";
         };
-        persistent-workspaces = {
-          "*" = 5;
-        };
       };
 
       # Hyprland Window
