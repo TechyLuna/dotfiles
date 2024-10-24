@@ -6,6 +6,7 @@
     ./fuzzel
     ./hyprland
     ./hyprlock
+    ./hyprpaper
     ./waybar
     ./wlogout
 
