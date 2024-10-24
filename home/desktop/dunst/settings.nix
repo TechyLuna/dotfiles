@@ -316,7 +316,7 @@
     urgency_low = {
       # IMPORTANT: colors have to be defined in quotation marks.
       # Otherwise the "#" and following would be interpreted as a comment.
-      background = "#000000CC";
+      background = "#00000080";
       foreground = "#888888";
       timeout = 6;
       # Icon for notifications with low urgency, uncomment to enable
@@ -324,7 +324,7 @@
     };
 
     urgency_normal = {
-      background = "#000000CC";
+      background = "#00000080";
       foreground = "#ffffff";
       timeout = 6;
       # Icon for notifications with normal urgency, uncomment to enable
@@ -332,7 +332,7 @@
     };
 
     urgency_critical = {
-      background = "#900000CC";
+      background = "#90000080";
       foreground = "#ffffff";
       frame_color = "#ffffff";
       timeout = 6;
