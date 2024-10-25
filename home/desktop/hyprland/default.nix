@@ -11,7 +11,7 @@
     ./settings/input.nix
     ./settings/layouts.nix
     ./settings/misc.nix
-    ./settings/monitor.nix
+    #./settings/monitor.nix
     ./settings/windowrules.nix
     ./settings/workspaces.nix
   ];

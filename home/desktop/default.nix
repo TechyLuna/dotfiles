@@ -7,6 +7,7 @@
     ./hyprland
     ./hyprlock
     ./hyprpaper
+    ./kanshi
     ./waybar
     ./wlogout
 
