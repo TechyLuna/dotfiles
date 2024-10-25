@@ -6,7 +6,7 @@
       "hyprland/workspaces" = {
         on-click = "activate";
         active-only = false;
-        all-outputs = true;
+        all-outputs = false;
         format = "{}";
         format-icons = {
           urgent = "";
