@@ -6,12 +6,6 @@
       blur = true;
       opacity = 0.75;
     };
-    keyboard.bindings = [
-      {
-        key = "K";
-        mods = "Control";
-        chars = "\\u000c";
-      }
-    ];
+    keyboard.bindings = [ ];
   };
 }
