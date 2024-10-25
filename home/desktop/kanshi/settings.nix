@@ -26,6 +26,22 @@
     {
       profile.outputs = [
         {
+          criteria = "GIGA-BYTE TECHNOLOGY CO., LTD. G27Q 21502B003480";
+          mode = "2560x1440@144";
+          position = "0,0";
+          adaptiveSync = true;
+          status = "enable";
+        }
+        {
+          criteria = "Unknown-1";
+          status = "disable";
+        }
+      ];
+    }
+
+    {
+      profile.outputs = [
+        {
           criteria = "eDP-1";
           mode = "1920x1080@60";
           position = "0,0";
