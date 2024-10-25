@@ -32,4 +32,14 @@
     nssmdns4 = true;
     openFirewall = true;
   };
+
+  services.i2p = {
+    enable = true;
+    # TCP & UDP
+    #port = 33692;
+    # TCP
+    #ntcp2.port = 34555;
+    #enableIPv4 = true;
+    #enableIPv6 = true;
+  };
 }
