@@ -8,8 +8,4 @@
     enable = true;
     package = pkgs.hyprpaper;
   };
-
-  home.packages = with pkgs; [
-    hyprpaper
-  ];
 }
