@@ -50,4 +50,6 @@
       ]}:/nix/var/nix/profiles/default/bin:/run/current-system/sw/bin"
     '';
   };
+
+  programs.seahorse.enable = true;
 }
