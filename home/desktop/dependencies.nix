@@ -6,5 +6,8 @@
     playerctl
     hyprshot
     satty
+
+    cliphist
+    wl-clipboard
   ];
 }
