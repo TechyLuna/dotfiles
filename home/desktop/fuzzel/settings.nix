@@ -2,7 +2,7 @@
 {
   programs.fuzzel.settings = {
     main = {
-      font = "monospace:size=12";
+      font = "monospace:size=8";
       dpi-aware = "auto";
       prompt = "";
       icon-theme = "breeze";
@@ -13,14 +13,14 @@
       match-mode = "fzf";
       show-actions = false;
       anchor = "center";
-      lines = 12;
+      lines = 20;
       width = 50;
-      tabs = 4;
-      horizontal-pad = 18;
-      vertical-pad = 8;
+      tabs = 2;
+      horizontal-pad = 4;
+      vertical-pad = 2;
       inner-pad = 0;
       image-size-ratio = 0.5;
-      line-height = 30;
+      line-height = 12;
       letter-spacing = 0;
       layer = "top";
       exit-on-keyboard-focus-loss = true;
