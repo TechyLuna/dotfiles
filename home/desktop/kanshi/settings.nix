@@ -47,6 +47,7 @@
           position = "0,0";
           adaptiveSync = true;
           status = "enable";
+          scale = 1.0;
         }
       ];
     }
