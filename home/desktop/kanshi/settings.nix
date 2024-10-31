@@ -42,10 +42,9 @@
     {
       profile.outputs = [
         {
-          criteria = "eDP-1";
+          criteria = "BOE 0x0729 Unknown";
           mode = "1920x1080@60";
           position = "0,0";
-          adaptiveSync = true;
           status = "enable";
           scale = 1.0;
         }
