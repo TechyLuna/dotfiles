@@ -51,5 +51,32 @@
       ];
     }
 
+    {
+      profile.outputs = [
+        {
+          criteria = "LG Electronics LG ULTRAGEAR 311NTMX2J683";
+          mode = "2560x1440@143.97Hz";
+          position = "1920,0";
+          status = "enable";
+          scale = 1.0;
+          adaptiveSync = true;
+        }
+        {
+          criteria = "Samsung Electric Company SAMSUNG 0x01000E00";
+          mode = "3840x2160@60.00Hz";
+          position = "0,120";
+          status = "enable";
+          scale = 2.0;
+        }
+        {
+          criteria = "Dell Inc. DELL SE2219H C329B23";
+          mode = "1920x1080@60.00Hz";
+          position = "4480,360";
+          status = "enable";
+          scale = 1.0;
+        }
+      ];
+    }
+
   ];
 }
