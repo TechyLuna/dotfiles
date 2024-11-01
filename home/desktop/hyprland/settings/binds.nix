@@ -34,8 +34,11 @@ in
       # Scroll through existing workspaces with mainMod + scroll
       "$mainMod, mouse_down, workspace, e+1" # Scroll workspaces 
       "$mainMod, mouse_up, workspace, e-1" # Scroll workspaces
-    ] ++ (
+
       # workspaces
+      "$mainMod, 0, workspace, 10"
+      "$mainMod SHIFT, 0, movetoworkspace, 10"
+    ] ++ (
       # binds $mod + [shift +] {1..9} to [move to] workspace {1..9}
       builtins.concatLists (builtins.genList
         (i:
@@ -46,6 +49,20 @@ in
           ]
         )
         9)
+    )
+
+    ++ (
+      # workspaces with F keys
+      # binds $mod + [shift +] F{1..8} to [move to] workspace {11..18}
+      builtins.concatLists (builtins.genList
+        (i:
+          let ws = i + 1;
+          in [
+            "$mainMod, F${toString ws}, workspace, 1${toString ws}"
+            "$mainMod SHIFT, F${toString ws}, movetoworkspace, 1${toString ws}"
+          ]
+        )
+        8)
     );
 
     bindm = [
