@@ -15,7 +15,7 @@
     }
     {
       "label" = "shutdown";
-      "action" = "poweroff";
+      "action" = "shutdown now";
       "text" = "Shutdown";
       "keybind" = "s";
     }
