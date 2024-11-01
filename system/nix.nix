@@ -34,6 +34,7 @@
     dates = "02:00";
     randomizedDelaySec = "45min";
     persistent = true;
+    flags = [ "--upgrade-all" ];
   };
 
   # This value determines the NixOS release from which the default
