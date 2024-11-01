@@ -96,7 +96,7 @@
     oh-my-zsh = {
       enable = true;
       plugins = [ "git" "thefuck" "direnv" ];
-      theme = "robbyrussell";
+      theme = "agnoster";
     };
   };
 }
