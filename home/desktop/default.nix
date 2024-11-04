@@ -4,6 +4,7 @@
     ./alacritty
     ./dunst
     ./fuzzel
+    ./hypridle
     ./hyprland
     ./hyprlock
     ./hyprpaper
