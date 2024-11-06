@@ -21,6 +21,7 @@ in
     qalculate-gtk
     unstable.nuclear
     monero-gui
+    loupe
   ];
 
   programs.kdeconnect = {
