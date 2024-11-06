@@ -32,6 +32,12 @@ in
       "$mainMod, up, movefocus, u" # Move focus up
       "$mainMod, down, movefocus, d" # Move focus down
 
+      # Move windows with arrow keys
+      "$mainMod SHIFT, left, movewindow, l"
+      "$mainMod SHIFT, right, movewindow, r"
+      "$mainMod SHIFT, up, movewindow, u"
+      "$mainMod SHIFT, down, movewindow, d"
+
       # Scroll through existing workspaces with mainMod + scroll
       "$mainMod, mouse_down, workspace, e+1" # Scroll workspaces 
       "$mainMod, mouse_up, workspace, e-1" # Scroll workspaces
