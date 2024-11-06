@@ -17,11 +17,14 @@ in
     nextcloud-client
     kgpg
     vlc
-    kdePackages.kdeconnect-kde
     signal-desktop
     qalculate-gtk
     unstable.nuclear
     monero-gui
   ];
 
+  programs.kdeconnect = {
+    enable = true;
+    package = pkgs.kdePackages.kdeconnect-kde;
+  };
 }
