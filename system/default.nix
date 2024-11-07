@@ -19,10 +19,10 @@
     ./virtualisation.nix
 
     ./programs/development.nix
+    ./programs/image.nix
     ./programs/office.nix
     ./programs/ollama.nix
     ./programs/pentest.nix
-    ./programs/photo.nix
     ./programs/steam.nix
     ./programs/tor.nix
     ./programs/utils.nix

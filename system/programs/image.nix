@@ -8,7 +8,6 @@ in
     unstable.gimp
     krita
     darktable
-    unstable.kdenlive
     imagemagick
     exiftool
   ];
