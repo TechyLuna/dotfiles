@@ -33,11 +33,11 @@
       # "WLR_RENDERER_ALLOW_SOFTWARE, 1"
 
       # NVIDIA https://wiki.hyprland.org/Nvidia/
-      "LIBVA_DRIVER_NAME,nvidia"
-      "GBM_BACKEND,nvidia-drm"
-      "__GLX_VENDOR_LIBRARY_NAME,nvidia"
-      "__GL_VRR_ALLOWED,1"
-      "WLR_DRM_NO_ATOMIC,1"
+      #"LIBVA_DRIVER_NAME,nvidia"
+      #"GBM_BACKEND,nvidia-drm"
+      #"__GLX_VENDOR_LIBRARY_NAME,nvidia"
+      #"__GL_VRR_ALLOWED,1"
+      #"WLR_DRM_NO_ATOMIC,1"
     ];
   };
 }
