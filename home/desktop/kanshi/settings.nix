@@ -77,6 +77,17 @@
         }
       ];
     }
+    {
+      profile.outputs = [
+        {
+          criteria = "Samsung Electric Company SAMSUNG 0x01000E00";
+          mode = "3840x2160@60.00Hz";
+          position = "0,120";
+          status = "enable";
+          scale = 2.0;
+        }
+      ];
+    }
 
   ];
 }
