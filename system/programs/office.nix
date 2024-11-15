@@ -22,6 +22,7 @@ in
     unstable.nuclear
     monero-gui
     loupe
+    unstable.qbittorrent
   ];
 
   programs.kdeconnect = {
