@@ -1,7 +1,7 @@
 { config, lib, pkgs, ... }: {
   networking.networkmanager.enable = true;
 
-  networking.hostName = "magma";
+  networking.hostName = "await";
 
   networking.firewall = {
     enable = true;
