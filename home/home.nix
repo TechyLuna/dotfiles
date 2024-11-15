@@ -39,6 +39,7 @@
     #   echo "Hello, ${config.home.username}!"
     # '')
     pkgs.thefuck
+    webcord
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
