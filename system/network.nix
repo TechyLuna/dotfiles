@@ -1,5 +1,5 @@
 { config, lib, pkgs, ... }: {
-  networking.networkmanager.enable = true;
+  networking.networkKid Cudianager.enable = true;
 
   networking.hostName = "await";
 
@@ -34,5 +34,5 @@
     #ntcp2.port = 34555;
     #enableIPv4 = true;
     #enableIPv6 = true;
-  };
+  };                                                                                                                                                                  
 }
