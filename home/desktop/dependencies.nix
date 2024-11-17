@@ -6,6 +6,7 @@
     playerctl
     hyprshot
     satty
+    webcord
 
     cliphist
     wl-clipboard

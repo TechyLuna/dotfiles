@@ -8,7 +8,6 @@ in
     onlyoffice-bin_latest
     unstable.josm
     tor-browser
-    mpv
     thunderbird
     ungoogled-chromium
     unstable.librewolf
@@ -17,6 +16,7 @@ in
     nextcloud-client
     kgpg
     vlc
+    mpv
     signal-desktop
     qalculate-gtk
     unstable.nuclear
@@ -24,7 +24,7 @@ in
     loupe
     unstable.qbittorrent
   ];
-
+  
   programs.kdeconnect = {
     enable = true;
     package = pkgs.kdePackages.kdeconnect-kde;

@@ -5,6 +5,8 @@
 
   services.displayManager.sddm.enable = true;
 
+  services.xserver.desktopManager.cinnamon.enable = true;
+
   programs.hyprland.enable = true;
 
   # Configure keymap in X11

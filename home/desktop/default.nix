@@ -11,6 +11,7 @@
     ./kanshi
     ./waybar
     ./wlogout
+    ./mpv
 
     ./dependencies.nix
     ./theme.nix
