@@ -4,22 +4,19 @@
       {
         mode = "n";
         key = "<leader>n";
-        action = ":Neotree action=focus reveal toggle<CR>";
+        #action = ":Neotree action=focus reveal toggle<CR>";
         options.silent = true;
       }
     ];
 
     plugins.neo-tree = {
       enable = true;
-
+      enableGitStatus = true ;
       closeIfLastWindow = true;
       window = {
         width = 30;
         autoExpandWidth = true;
       };
     };
-    config = ''
-      autocmd VimEnter * Neotree action=focus reveal
-    '';
   };
 }

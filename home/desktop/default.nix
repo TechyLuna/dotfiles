@@ -12,7 +12,7 @@
     ./waybar
     ./wlogout
     ./mpv
-    ./neovim
+    #./neovim
 
     ./dependencies.nix
     ./theme.nix

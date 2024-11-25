@@ -74,7 +74,7 @@
       config.lib.nixvim.keymaps.mkKeymaps
       {options.silent = true;}
       (normal ++ visual);
-    builtins.trace "Available attributes: ${toString (attrNames config.lib)}";
-
+    
    };
+
 }

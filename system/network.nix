@@ -1,5 +1,5 @@
 { config, lib, pkgs, ... }: {
-  networking.networkKid Cudianager.enable = true;
+  networking.networkmanager.enable = true;
 
   networking.hostName = "await";
 
@@ -14,8 +14,9 @@
           allowedUDPPorts = [ ];
         };
 
-        "enp5s0" = {
-          allowedTCPPorts = [ 22 ];
+        "enp6s0" = {
+          allowedTCPPorts = [ 23247 ];
+          allowedUDPPorts = [ 23247 ];
         };
       };
   };
