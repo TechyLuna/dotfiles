@@ -3,7 +3,10 @@
   # You can disable this if you're only using the Wayland session.
   services.xserver.enable = true;
 
-  services.displayManager.sddm.enable = true;
+  services.displayManager.sddm = {
+    enable = true;
+    theme = "chili";
+  };
 
   services.xserver.desktopManager.cinnamon.enable = true;
 
@@ -18,6 +21,7 @@
   };
 
   environment.systemPackages = with pkgs; [
+    sddm-chili-theme
     twemoji-color-font
     ddcutil
   ];
