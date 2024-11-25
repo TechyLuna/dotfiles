@@ -5,7 +5,7 @@
 
   services.displayManager.sddm = {
     enable = true;
-    theme = "chili";
+    theme = "catppuccin-sddm-corners";
   };
 
   services.xserver.desktopManager.cinnamon.enable = true;
@@ -21,7 +21,7 @@
   };
 
   environment.systemPackages = with pkgs; [
-    sddm-chili-theme
+    catppuccin-sddm-corners
     twemoji-color-font
     ddcutil
   ];
