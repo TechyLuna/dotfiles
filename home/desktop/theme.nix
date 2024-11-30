@@ -1,9 +1,6 @@
 { config, pkgs, ... }:
 
 {
-  imports = [
-    <catppuccin/modules/home-manager>
-  ];
 
   home.pointerCursor = {
     gtk.enable = true;
