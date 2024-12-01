@@ -14,8 +14,8 @@
     enable = true;
 
     theme = {
-      package = pkgs.sweet;
-      name = "Sweet-Dark";
+      package = pkgs.catppuccin-gtk;
+      name = "catppuccin-frappe-blue-standard";
     };
 
     iconTheme = {

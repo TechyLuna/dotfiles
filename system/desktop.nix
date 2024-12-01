@@ -24,6 +24,14 @@
     catppuccin-sddm-corners
     twemoji-color-font
     ddcutil
+    (catppuccin.override {
+      accent = "mauve";
+      variant = "mocha";
+   })
+    (catppuccin-gtk.override {
+      accents = ["mauve"];
+      variant = "mocha";
+   })
   ];
 
   fonts = {
