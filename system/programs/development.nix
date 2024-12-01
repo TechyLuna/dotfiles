@@ -6,6 +6,7 @@
     vscode-fhs
     nixpkgs-fmt
     sqlitebrowser
+    go
   ];
 
   virtualisation.docker.enable = true;
