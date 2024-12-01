@@ -39,6 +39,9 @@
     # (pkgs.writeShellScriptBin "my-hello" ''
     #   echo "Hello, ${config.home.username}!"
     # '')
+    (pkgs.lunarvim.override {
+      nvimAlias = true;
+    })
     pkgs.thefuck
   ];
 
@@ -74,7 +77,7 @@
   #  /etc/profiles/per-user/next/etc/profile.d/hm-session-vars.sh
   #
   home.sessionVariables = {
-     EDITOR = "nvim";
+     EDITOR = "lvim";
   };
 
   # Let Home Manager install and manage itself.
