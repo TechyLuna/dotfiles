@@ -101,7 +101,7 @@
       network = {
         format = "{ifname}";
         format-wifi = "{icon}";
-        format-ethernet = "";
+        format-ethernet = " ";
         format-disconnected = "󰌙"; #An empty format will hide the module.
         tooltip-format = " {ifname} via {gwaddri}";
         tooltip-format-wifi = "   {essid} ({signalStrength}%)";
