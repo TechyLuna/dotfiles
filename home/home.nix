@@ -39,9 +39,9 @@
     # (pkgs.writeShellScriptBin "my-hello" ''
     #   echo "Hello, ${config.home.username}!"
     # '')
-    (pkgs.lunarvim.override {
-      nvimAlias = true;
-    })
+    # (pkgs.lunarvim.override {
+    #   nvimAlias = true;
+    # })
     pkgs.thefuck
   ];
 
