@@ -50,7 +50,8 @@ in
       builtins.concatLists (builtins.genList
         (i:
           let ws = i + 1;
-          in [
+          in
+          [
             "$mainMod, code:1${toString i}, workspace, ${toString ws}"
             "$mainMod SHIFT, code:1${toString i}, movetoworkspace, ${toString ws}"
           ]
@@ -64,7 +65,8 @@ in
       builtins.concatLists (builtins.genList
         (i:
           let ws = i + 1;
-          in [
+          in
+          [
             "$mainMod, F${toString ws}, workspace, 1${toString ws}"
             "$mainMod SHIFT, F${toString ws}, movetoworkspace, 1${toString ws}"
           ]
