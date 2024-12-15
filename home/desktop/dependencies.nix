@@ -6,6 +6,7 @@
     hyprshot
     satty
     webcord
+    fastfetch
 
     neovim
     gcc
