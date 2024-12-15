@@ -5,6 +5,11 @@
     enableCompletion = true;
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
+    initExtra = ''
+      cd() {
+        builtin cd "$@" && ls --color=auto
+      }
+    '';
 
     plugins = [
       {
@@ -20,13 +25,16 @@
     ];
 
     shellAliases = {
-      ll = "ls -l";
+      ls = "ls -a --color=auto";
       update = "sudo nixos-rebuild switch";
+      dotfiles = "cd ~/.config/dotfiles && nvim .";
     };
+
     history = {
       size = 10000;
       path = "${config.xdg.dataHome}/zsh/history";
     };
+
     oh-my-zsh = {
       enable = true;
       plugins = [ "git" "thefuck" "direnv" ];
