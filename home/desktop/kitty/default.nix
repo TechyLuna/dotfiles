@@ -4,8 +4,8 @@
     ./settings.nix
   ];
 
-  programs.alacritty = {
+  programs.kitty = {
     enable = true;
-    package = pkgs.alacritty;
+    package = pkgs.kitty;
   };
 }

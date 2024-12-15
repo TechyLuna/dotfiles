@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 {
   imports = [
-    ./alacritty
+    ./kitty
     ./dunst
     ./fuzzel
     ./hypridle
