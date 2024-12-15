@@ -6,9 +6,6 @@
     hyprshot
     satty
     webcord
-    fastfetch
-    alacritty
-
 
     neovim
     gcc
@@ -19,7 +16,4 @@
     wl-clipboard
     jq # logout script
   ];
-  btop.override = {
-    rocmSupport = true;
-  };
 }

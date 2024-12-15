@@ -8,7 +8,7 @@
     dig
     whois
     file
-    htop
+    btop
     wget
     ncdu
   ];
