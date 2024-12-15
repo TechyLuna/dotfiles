@@ -59,13 +59,13 @@
       # CPU
       cpu = {
         format = "   {}%";
-        on-click = "alacritty -e htop";
+        on-click = "kitty -e btop";
       };
 
       # Memory
       memory = {
         format = " {}%";
-        on-click = "alacritty -e htop";
+        on-click = "kitty -e btop";
       };
 
       # Harddisc space used
@@ -73,7 +73,7 @@
         interval = 30;
         format = " {percentage_used}%";
         path = "/";
-        on-click = "alacritty -e htop";
+        on-click = "kitty -e btop";
       };
 
       "hyprland/language" = {
@@ -108,7 +108,7 @@
         tooltip-format-ethernet = "  {ifname} ({ipaddr}/{cidr})";
         tooltip-format-disconnected = "Disconnected";
         max-length = 50;
-        on-click = "alacritty -e nmtui";
+        on-click = "kitty -e nmtui";
         format-icons = [ "󰤯" "󰤟" "󰤢" "󰤥" "󰤨" ];
       };
 
@@ -182,8 +182,8 @@
         exec = "cat /sys/class/hwmon/hwmon3/device/gpu_busy_percent"; #This is hardcoded and you will have a different path for your GPU
         format = "󰢮  {}%";
         return-type = "";
-        interval = 10 ;
-     };
+        interval = 10;
+      };
     };
   };
 }
