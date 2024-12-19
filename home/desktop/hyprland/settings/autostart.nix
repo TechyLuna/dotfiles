@@ -20,6 +20,7 @@ in
       "[worskapce 4 silent] webcord"
 
       "[workspace 5 silent] nextcloud --background"
+      "[workspace 5 silent] qbittorrent --background"
     ];
   };
 }
