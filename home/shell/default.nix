@@ -41,5 +41,5 @@
       theme = "agnoster";
     };
   };
-
+  programs.thefuck.enable = true;
 }

@@ -17,6 +17,7 @@
     ./ssh.nix
     ./users.nix
     ./virtualisation.nix
+    ./services.nix
 
     ./programs/development.nix
     ./programs/image.nix

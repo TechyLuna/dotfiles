@@ -7,11 +7,14 @@
     satty
     webcord
     fastfetch
+    nicotine-plus
+    xorg.xhost
+    mumble
 
     neovim
     gcc
     cargo
-    nodejs_23
+    # nodejs_23
 
     cliphist
     wl-clipboard
